@@ -1,0 +1,10 @@
+.home {
+  display: flex;
+  // The flex container becomes flexible by setting the display property to flex:
+  .homeContainer {
+    flex: 6; //The flex property is a shorthand property for the flex-grow, flex-shrink, and flex-basis properties.
+    // The flex-grow property specifies how much a flex item will grow relative to the rest of the flex items.
+    // The flex-shrink property specifies how much a flex item will shrink relative to the rest of the flex items.
+    // The flex-basis property specifies the initial length of a flex item.
+  }
+}
